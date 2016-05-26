@@ -1,2 +1,2 @@
-# celtic
-Website for a family member
+# CelticXFire
+A website for a family member. :)
