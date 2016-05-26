@@ -2,13 +2,7 @@ html{
 	font-size: 13px;
 }
 
-.six.columns{
-	width: 47%;
-}
 
-.mobile-fifty.columns{
-	width: 100%;
-}
 .align{
 	text-align: right;
 	margin-top: 2.5rem;
@@ -20,6 +14,15 @@ html{
 
 header{
 	background-color: #056F40;
+}
+
+header .logo{
+	float:left
+}
+
+header .menu{
+	float: right;
+	margin-top: 2.5rem;
 }
 
 header .logo img{
@@ -54,7 +57,7 @@ section .mission p{
 }
 
 section .img-mission img{
-	width: 120%;
+	width: 100%;
 	border-radius: 0.8rem;
 
 }
@@ -240,14 +243,6 @@ footer p {
 		padding-top: 2rem;
 	}
 
-	section .schedule .img1{
-		width: 70%;
-	}
-
-	section .schedule .img2{
-		width: 70%;
-	}
-
 }
 
 /* Larger than tablet */
@@ -266,13 +261,6 @@ footer p {
 		width: 50%;
 	}
 
-	section .schedule .img1{
-		width: 70%;
-	}
-
-	section .schedule .img2{
-		width: 50%;
-	}
 }
 
 @media (min-width: 850px) {
@@ -287,6 +275,14 @@ footer p {
 
 	section .img-mission img{
 		width: 50%
+	}
+
+	section .achievements img{
+		width: 50%;
+	}
+
+	section .schedule .img2{
+		width: 50%;
 	}
 
 
@@ -320,6 +316,8 @@ footer p {
 	section .schedule .img2{
 		width: 35%;
 	}
+
+
 }
 
 /* Larger than Desktop HD */
@@ -348,7 +346,7 @@ footer p {
 	}
 
 	section .schedule .img1{
-		width: 50%;
+		width: 100%;
 	}
 
 
