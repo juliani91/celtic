@@ -56,8 +56,12 @@ section .mission p{
 	margin-right: 1rem;
 }
 
+section .img-mission{
+	text-align: center;
+}
+
 section .img-mission img{
-	width: 100%;
+	width: 50%;
 	border-radius: 0.8rem;
 
 }
@@ -103,7 +107,7 @@ section .achievements p{
 
 section .achievements img{
 	border-radius: 5px;
-	width: 100%;
+	width: 50%;
 }
 
 section .achievements a{
@@ -139,7 +143,7 @@ section .schedule .img1{
 }
 
 section .schedule .img2{
-	width: 100%;
+	width: 50%;
 	border-radius: 0.8rem;
 }
 
